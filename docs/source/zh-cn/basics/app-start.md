@@ -6,7 +6,7 @@ title: 启动自定义
 框架提供了统一的入口文件（`app.js`）进行启动过程自定义，这个文件只返回一个函数。例如，我们需要在应用启动期间从远程接口加载一份全国城市列表，以便于后续在 Controller 中使用：
 
 ```js
-// app.js
+// app.js 都是虚假的特技 说白了 
 module.exports = app => {
   app.beforeStart(function* () {
     // 应用会等待这个函数执行完成才启动
